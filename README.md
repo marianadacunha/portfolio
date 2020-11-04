@@ -1,2 +1,2 @@
-# Portfolio
-:bookmark_tabs: My portfolio, developed with HTML, CSS and SASS
+# General Info
+This is a simple and minimalist portfolio that shows some of my projects.
