@@ -9,5 +9,25 @@
 }
 
 body {
-    background-color: color(primary);
+  background-color: color(primary);
+
+  a {
+    color: color(secondary);
+    font-family: 'Inconsolata';
+    font-weight: 500;
+
+    &:hover {
+      color: color(secondary);
+    }
+
+    span {
+      color: color(text);
+      font-family: 'Inconsolata';
+      font-weight: 400;
+
+      &:hover {
+        color: color(secondary);
+      }
+    }
+  }
 }
