@@ -32,6 +32,76 @@ body {
         color: color(text-dark);
       }
     }
+
+    p {
+      color: color(text);
+      font-family: 'Raleway';
+      font-weight: 400;
+      font-size: .9rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0px;
+
+      li {
+        &:before {
+          content: "▹";
+          position: absolute;
+          left: 0px;
+          color: color(secondary);
+          line-height: 24px;
+          box-sizing: inherit;
+          padding-left: 5px;
+        }
+      }
+    }
+
+    .about h1 {
+      color: color(secondary);
+      font-family: 'Inconsolata';
+      font-weight: 600;
+      font-size: 1.2rem;
+
+      span {
+        color: color(text);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 1.4rem;
+      }
+    }
+
+    .projects h1 {
+      color: color(secondary);
+      font-family: 'Inconsolata';
+      font-weight: 600;
+      font-size: 1.2rem;
+
+      span {
+        color: color(text);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 1.4rem;
+      }
+    }
+
+    img {
+      width: 95%;
+    }
+
+    .contact h1 {
+      color: color(secondary);
+      font-family: 'Inconsolata';
+      font-weight: 600;
+      font-size: 1.2rem;
+
+      span {
+        color: color(text);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 1.4rem;
+      }
+    }
   }
 
   a {
