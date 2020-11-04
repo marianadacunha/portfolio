@@ -5,6 +5,29 @@
 /* iPads and tablets */
 body {
   background-color: #222222;
+  color: #ebebeb;
+}
+
+body .main {
+  padding: 0px 10px 0px 25px;
+}
+
+body .main .home h1 {
+  color: #FFDF00;
+  font-family: 'Inconsolata';
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+body .main .home h2 {
+  color: #ebebeb;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+body .main .home h2 span {
+  color: #9f9f9f;
 }
 
 body a {

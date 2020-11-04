@@ -10,6 +10,29 @@
 
 body {
   background-color: color(primary);
+  color: color(text);
+
+  .main {
+    padding: 0px 10px 0px 25px;
+
+    .home h1 {
+      color: color(secondary);
+      font-family: 'Inconsolata';
+      font-weight: 500;
+      font-size: 1.2rem;
+    }
+
+    .home h2 {
+      color: color(text);
+      font-family: 'Raleway';
+      font-weight: 800;
+      font-size: 2rem;
+
+      span {
+        color: color(text-dark);
+      }
+    }
+  }
 
   a {
     color: color(secondary);
