@@ -102,6 +102,16 @@ body {
         font-size: 1.4rem;
       }
     }
+
+    button {
+      font-family: 'Inconsolata';
+      color: color(secondary);
+      border: 1.5px solid color(secondary);
+      border-radius: 7px;
+      font-weight: 500;
+      background-color: transparent;
+      padding: 8px 12px 8px 12px;
+    }
   }
 
   a {

@@ -100,6 +100,16 @@ body .main .contact h1 span {
   font-size: 1.4rem;
 }
 
+body .main button {
+  font-family: 'Inconsolata';
+  color: #FFDF00;
+  border: 1.5px solid #FFDF00;
+  border-radius: 7px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 8px 12px 8px 12px;
+}
+
 body a {
   color: #FFDF00;
   font-family: 'Inconsolata';
