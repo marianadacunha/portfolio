@@ -6,11 +6,15 @@
 /* iPads and tablets */
 body {
   background-color: #222222;
-  color: #ebebeb;
+  color: #dadada;
 }
 
 body .main {
-  padding: 0px 10px 0px 25px;
+  padding: 0px 30px 0px 30px;
+}
+
+body .main .home {
+  margin: 100px 0px 150px 0px;
 }
 
 body .main .home h1 {
@@ -21,26 +25,34 @@ body .main .home h1 {
 }
 
 body .main .home h2 {
-  color: #ebebeb;
+  color: #dadada;
   font-family: 'Raleway';
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 body .main .home h2 span {
-  color: #9f9f9f;
+  color: #818181;
 }
 
-body .main p {
-  color: #ebebeb;
+body .main .home p {
+  color: #dadada;
   font-family: 'Raleway';
   font-weight: 400;
-  font-size: .9rem;
+  font-size: 1.1rem;
+  line-height: 1.6em;
+  margin: 30px 0px 30px 0px;
 }
 
 body .main ul {
   list-style-type: none;
   padding: 0px;
+  margin-left: 30px;
+}
+
+body .main ul li {
+  font-family: 'Inconsolata';
+  font-weight: 400;
 }
 
 body .main ul li:before {
@@ -52,6 +64,7 @@ body .main ul li:before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   padding-left: 5px;
+  margin-left: 30px;
 }
 
 body .main .about h1 {
@@ -62,7 +75,7 @@ body .main .about h1 {
 }
 
 body .main .about h1 span {
-  color: #ebebeb;
+  color: #dadada;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 1.4rem;
@@ -76,7 +89,7 @@ body .main .projects h1 {
 }
 
 body .main .projects h1 span {
-  color: #ebebeb;
+  color: #dadada;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 1.4rem;
@@ -94,7 +107,7 @@ body .main .contact h1 {
 }
 
 body .main .contact h1 span {
-  color: #ebebeb;
+  color: #dadada;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 1.4rem;
@@ -121,7 +134,7 @@ body a:hover {
 }
 
 body a span {
-  color: #ebebeb;
+  color: #dadada;
   font-family: 'Inconsolata';
   font-weight: 400;
 }
