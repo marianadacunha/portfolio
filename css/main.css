@@ -163,6 +163,10 @@ body .main .contact h1 span {
   font-size: 1.4rem;
 }
 
+body .main .contact button {
+  margin-bottom: 50px;
+}
+
 body .main button {
   font-family: 'Inconsolata';
   color: #FFDF00;
