@@ -3,9 +3,10 @@ $medium: 770px;
 $small: 420px;
 
 $colors: (
-    primary: #222222,
+    primary: #141414,
     primary-light: lighten(#222222, 30%),
     secondary: #FFDF00,
     text: #dadada,
-    text-dark: darken(#dadada, 30%)
+    text-dark: darken(#dadada, 30%),
+    line: darken(#dadada, 60%)
 );
