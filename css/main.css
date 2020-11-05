@@ -14,7 +14,20 @@ body .main {
 }
 
 body .main .home {
-  margin: 100px 0px 150px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: 100vh;
 }
 
 body .main .home h1 {
@@ -141,7 +154,25 @@ body .main .projects p {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5em;
-  margin-bottom: 50px;
+  margin: 0px 0px 50px 0px;
+}
+
+body .main .projects ul {
+  list-style-type: none;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .main .projects ul li {
+  font-family: 'Inconsolata';
+  font-weight: 700;
+  font-size: .7rem;
+  padding: 0px 7px 0px 7px;
+  margin-right: 7px;
+  background-color: #FFDF00;
+  color: #141414;
 }
 
 body .main img {
