@@ -17,16 +17,16 @@ const LIST = {
     }
 }
 
+function changeImgSource(element, value) {
+    return element.setAttribute('src', value);
+}
+
 function hover(element) {
-    const item = element.getAttribute('type');
-    this.setAttribute(element, LIST[item]['hover'])
+    const item = element.getAttribute('data-project');
+    this.changeImgSource(element, LIST[item]['hover'])
 }
 
 function unhover(element) {
-    const item = element.getAttribute('type');
-    this.setAttribute(element, LIST[item]['default'])
-}
-
-function setAttribute(element, value) {
-    return element.setAttribute('src', value);
+    const item = element.getAttribute('data-project');
+    this.changeImgSource(element, LIST[item]['default'])
 }
