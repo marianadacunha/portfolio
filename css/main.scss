@@ -15,6 +15,10 @@ body {
   .main {
     padding: 0px 30px 0px 30px;
 
+    @include desktop {
+      padding: 0px 150px 0px 150px;
+    }
+
     .home {
       display: flex;
       justify-content: center;
@@ -70,6 +74,10 @@ body {
           height: 1px;
           margin-left: 155px;
           background-color: color(line);
+
+          @include desktop {
+            max-width: 90%;
+          }
         }
 
         span {
@@ -92,7 +100,7 @@ body {
         li {
           font-family: 'Inconsolata';
           font-weight: 400;
-          color: color(text-dark);
+          color: color(secondary);
 
           &:before {
             content: "▹";
@@ -103,20 +111,24 @@ body {
             box-sizing: inherit;
             padding-left: 5px;
             margin-left: 30px;
+
+            @include desktop {
+              margin-left: 150px;
+            }
           }
         }
       }
     }
 
     .projects {
-      
+
       h1 {
         color: color(secondary);
         font-family: 'Inconsolata';
         font-weight: 600;
         font-size: 1.2rem;
         margin-bottom: 40px;
-  
+
         &:after {
           content: "";
           display: block;
@@ -126,8 +138,12 @@ body {
           height: 1px;
           margin-left: 175px;
           background-color: color(line);
+
+          @include desktop {
+            max-width: 90%;
+          }
         }
-  
+
         span {
           color: color(text);
           font-family: 'Raleway';
@@ -181,7 +197,22 @@ body {
         font-weight: 600;
         font-size: 1.2rem;
         margin-bottom: 40px;
-  
+
+        &:after {
+          content: "";
+          display: block;
+          position: relative;
+          top: -13px;
+          max-width: 70%;
+          height: 1px;
+          margin-left: 165px;
+          background-color: color(line);
+
+          @include desktop {
+            max-width: 90%;
+          }
+        }
+
         span {
           color: color(text);
           font-family: 'Raleway';
@@ -189,13 +220,9 @@ body {
           font-size: 1.4rem;
         }
       }
-
-      button {
-        margin-bottom: 50px;
-      }
     }
 
-    button {
+    a {
       font-family: 'Inconsolata';
       color: color(secondary);
       border: 1.5px solid color(secondary);
@@ -204,8 +231,45 @@ body {
       background-color: transparent;
       padding: 8px 12px 8px 12px;
     }
+
+    .footer {
+      font-family: 'Inconsolata';
+      color: color(secondary);
+      text-align: center;
+      margin-top: 30px;
+
+      p {
+        margin-top: 100px;
+
+        &:before {
+          content: "";
+          display: block;
+          position: relative;
+          top: -15px;
+          max-width: 95%;
+          height: 1px;
+          background-color: color(line);
+        }
+      }
+
+      .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        img {
+          margin-right: 15px;
+        }
+      }
+
+      img {
+        max-width: 11%;
+      }
+    }
   }
 
+  /* Menu */
   a {
     color: color(secondary);
     font-family: 'Inconsolata';

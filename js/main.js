@@ -1,7 +1,9 @@
-function hover(element) {
-  element.setAttribute('src', `img/screenshot1.png`);
+const screenshot = document.getElementsByClassName("project-screenshot")
+
+function hover(screenshot) {
+    screenshot.setAttribute('src', `img/screenshot.png`);
 }
 
-function unhover(element) {
-  element.setAttribute('src', `img/screenshot1_dark.png`);
+function unhover(screenshot) {
+    screenshot.setAttribute('src', `img/screenshot${"_dark"}.png`);
 }

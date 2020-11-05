@@ -3,14 +3,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
 /* The point where the layout should change */
 /* Desktops */
-/* iPads and tablets */
 body {
   background-color: #141414;
   color: #dadada;
+  /* Menu */
 }
 
 body .main {
   padding: 0px 30px 0px 30px;
+}
+
+@media (min-width: 770px) {
+  body .main {
+    padding: 0px 150px 0px 150px;
+  }
 }
 
 body .main .home {
@@ -80,6 +86,12 @@ body .main .about h1:after {
   background-color: #414141;
 }
 
+@media (min-width: 770px) {
+  body .main .about h1:after {
+    max-width: 90%;
+  }
+}
+
 body .main .about h1 span {
   color: #dadada;
   font-family: 'Raleway';
@@ -100,7 +112,7 @@ body .main .about ul {
 body .main .about ul li {
   font-family: 'Inconsolata';
   font-weight: 400;
-  color: #8e8e8e;
+  color: #FFDF00;
 }
 
 body .main .about ul li:before {
@@ -113,6 +125,12 @@ body .main .about ul li:before {
           box-sizing: inherit;
   padding-left: 5px;
   margin-left: 30px;
+}
+
+@media (min-width: 770px) {
+  body .main .about ul li:before {
+    margin-left: 150px;
+  }
 }
 
 body .main .projects h1 {
@@ -132,6 +150,12 @@ body .main .projects h1:after {
   height: 1px;
   margin-left: 175px;
   background-color: #414141;
+}
+
+@media (min-width: 770px) {
+  body .main .projects h1:after {
+    max-width: 90%;
+  }
 }
 
 body .main .projects h1 span {
@@ -187,6 +211,23 @@ body .main .contact h1 {
   margin-bottom: 40px;
 }
 
+body .main .contact h1:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -13px;
+  max-width: 70%;
+  height: 1px;
+  margin-left: 165px;
+  background-color: #414141;
+}
+
+@media (min-width: 770px) {
+  body .main .contact h1:after {
+    max-width: 90%;
+  }
+}
+
 body .main .contact h1 span {
   color: #dadada;
   font-family: 'Raleway';
@@ -194,11 +235,7 @@ body .main .contact h1 span {
   font-size: 1.4rem;
 }
 
-body .main .contact button {
-  margin-bottom: 50px;
-}
-
-body .main button {
+body .main a {
   font-family: 'Inconsolata';
   color: #FFDF00;
   border: 1.5px solid #FFDF00;
@@ -206,6 +243,48 @@ body .main button {
   font-weight: 500;
   background-color: transparent;
   padding: 8px 12px 8px 12px;
+}
+
+body .main .footer {
+  font-family: 'Inconsolata';
+  color: #FFDF00;
+  text-align: center;
+  margin-top: 30px;
+}
+
+body .main .footer p {
+  margin-top: 100px;
+}
+
+body .main .footer p:before {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+  max-width: 95%;
+  height: 1px;
+  background-color: #414141;
+}
+
+body .main .footer .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+body .main .footer .social-media img {
+  margin-right: 15px;
+}
+
+body .main .footer img {
+  max-width: 11%;
 }
 
 body a {
