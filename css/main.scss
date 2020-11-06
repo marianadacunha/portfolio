@@ -187,44 +187,49 @@ body {
 
       .project-image {
         max-width: 95%;
-        background-size: cover;
-        transition: ease .5s;
+        width: 565px;
+        height: 318px;
+        transition: ease .7s;
         cursor: pointer;
       }
 
       .project-one {
-        background: url('../img/screenshot1.png') no-repeat;
+        background: url('../img/screenshot1_dark.png') no-repeat;
+        background-size: cover;
         
         &:hover {
-          background-image: url('../img/screenshot1_dark.png');
-          transition: ease .5s;
+          background-image: url('../img/screenshot1.png');
+          transition: ease .7s;
         }
       }
 
       .project-two {
-        background: url('../img/screenshot2.png') no-repeat;
+        background: url('../img/screenshot2_dark.png') no-repeat;
+        background-size: cover;
         
         &:hover {
-          background-image: url('../img/screenshot2_dark.png');
-          transition: ease .5s;
+          background-image: url('../img/screenshot2.png');
+          transition: ease .7s;
         }
       }
 
       .project-three {
-        background: url('../img/screenshot3.png') no-repeat;
+        background: url('../img/screenshot3_dark.png') no-repeat;
+        background-size: cover;
         
         &:hover {
-          background-image: url('../img/screenshot3_dark.png');
-          transition: ease .5s;
+          background-image: url('../img/screenshot3.png');
+          transition: ease .7s;
         }
       }
 
       .project-four {
-        background: url('../img/screenshot4.png') no-repeat;
+        background: url('../img/screenshot4_dark.png') no-repeat;
+        background-size: cover;
         
         &:hover {
-          background-image: url('../img/screenshot4_dark.png');
-          transition: ease .5s;
+          background-image: url('../img/screenshot4.png');
+          transition: ease .7s;
         }
       }
 
