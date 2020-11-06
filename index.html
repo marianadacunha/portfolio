@@ -12,24 +12,21 @@
 
 <body>
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="index.html">M</a>
+    <a class="navbar-brand" href="index.html">MM</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
       aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" style="filter: invert(100%);"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarToggler">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">01. <span>About</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">02. <span>Experience</span></a>
+          <a class="nav-link" href="#about">01. <span>About</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="menu.html">03. <span>Work</span></a>
+          <a class="nav-link" href="#projects">02. <span>Work</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="book.html">04. <span>Contact</span></a>
+          <a class="nav-link" href="#contact">03. <span>Contact</span></a>
         </li>
       </ul>
     </div>
@@ -47,7 +44,7 @@
       <a href="mailto:marianadacunhamarques@gmail.com">Say Hello</a>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
       <h1>01. <span>About Me</span></h1>
       <p>
         Hi, my name is Mariana Marques.
@@ -69,12 +66,16 @@
       </ul>
     </div>
 
-    <div class="projects">
-      <h1>03. <span>My Projects</span></h1>
+    <div class="projects" id="projects">
+      <h1>02. <span>My Projects</span></h1>
       <div class="project-content">
         <div id="first-project">
-          <a href="https://marianadacunha.github.io/weather-app/" target="_blank"><div class="project-image project-one"></div></a>
-          <a href="https://marianadacunha.github.io/weather-app/" target="_blank"><h2>Weather App</h2></a>
+          <a href="https://marianadacunha.github.io/weather-app/" target="_blank">
+            <div class="project-image project-one"></div>
+          </a>
+          <a href="https://marianadacunha.github.io/weather-app/" target="_blank">
+            <h2>Weather App</h2>
+          </a>
           <ul>
             <li>JavaScript</li>
             <li>SASS</li>
@@ -85,8 +86,12 @@
             gets fetched from the OpenWeatherMap API.</p>
         </div>
         <div id="second-project">
-          <a href="https://marianadacunha.github.io/fake-airbnb/" target="_blank"><div class="project-image project-two"></div></a>
-          <a href="https://marianadacunha.github.io/fake-airbnb/" target="_blank"><h2>Fake AirBnb</h2></a>
+          <a href="https://marianadacunha.github.io/fake-airbnb/" target="_blank">
+            <div class="project-image project-two"></div>
+          </a>
+          <a href="https://marianadacunha.github.io/fake-airbnb/" target="_blank">
+            <h2>Fake AirBnb</h2>
+          </a>
           <ul>
             <li>JavaScript</li>
             <li>SASS</li>
@@ -97,8 +102,12 @@
           <p>This page is similar to AirBnB and uses an API to fetch some properties/rooms.</p>
         </div>
         <div id="third-project">
-          <a href="https://github.com/marianadacunha/my-stocks" target="_blank"><div class="project-image project-three"></div></a>
-          <a href="https://github.com/marianadacunha/my-stocks" target="_blank"><h2>MyStocks</h2></a>
+          <a href="https://github.com/marianadacunha/my-stocks" target="_blank">
+            <div class="project-image project-three"></div>
+          </a>
+          <a href="https://github.com/marianadacunha/my-stocks" target="_blank">
+            <h2>MyStocks</h2>
+          </a>
           <ul>
             <li>Python</li>
             <li>SQL</li>
@@ -110,8 +119,12 @@
           <p>A website via which users can “buy” and “sell” stocks, as proposed by Harvard's CS50.</p>
         </div>
         <div id="fourth-project">
-          <a href="https://marianadacunha.github.io/validador-de-cpf/" target="_blank"><div class="project-image project-four"></div></a>
-          <a href="https://marianadacunha.github.io/validador-de-cpf/" target="_blank"><h2>Brazilian ID Validator</h2></a>
+          <a href="https://marianadacunha.github.io/validador-de-cpf/" target="_blank">
+            <div class="project-image project-four"></div>
+          </a>
+          <a href="https://marianadacunha.github.io/validador-de-cpf/" target="_blank">
+            <h2>Brazilian ID Validator</h2>
+          </a>
           <ul>
             <li>JavaScript</li>
             <li>CSS</li>
@@ -122,8 +135,8 @@
         </div>
       </div>
 
-      <div class="contact">
-        <h1>04. <span>Reach Out</span></h1>
+      <div class="contact" id="contact">
+        <h1>03. <span>Reach Out</span></h1>
         <p>My inbox is always open - feel free to reach out to me any time.
           I prefer to talk over email, especially since we may be a few time zones away.
         </p>

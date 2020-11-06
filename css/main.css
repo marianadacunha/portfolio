@@ -3,23 +3,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
 /* The point where the layout should change */
 /* Desktops */
-body {
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
   background-color: #141414;
   color: #dadada;
   /* Menu */
 }
 
-body .main {
+html body .main {
   padding: 0px 30px 0px 30px;
 }
 
 @media (min-width: 770px) {
-  body .main {
+  html body .main {
     padding: 0px 150px 0px 150px;
   }
 }
 
-body .main .home {
+html body .main .home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,25 +40,25 @@ body .main .home {
   min-height: 100vh;
 }
 
-body .main .home h1 {
+html body .main .home h1 {
   color: #FFDF00;
   font-family: 'Inconsolata';
   font-weight: 500;
   font-size: 1.2rem;
 }
 
-body .main .home h2 {
+html body .main .home h2 {
   color: #dadada;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 3rem;
 }
 
-body .main .home h2 span {
+html body .main .home h2 span {
   color: #8e8e8e;
 }
 
-body .main .home p {
+html body .main .home p {
   color: #8e8e8e;
   font-family: 'Raleway';
   font-weight: 400;
@@ -63,17 +67,17 @@ body .main .home p {
   margin: 30px 0px 30px 0px;
 }
 
-body .main .about {
+html body .main .about {
   margin-bottom: 50px;
 }
 
 @media (min-width: 770px) {
-  body .main .about {
+  html body .main .about {
     padding-bottom: 100px;
   }
 }
 
-body .main .about h1 {
+html body .main .about h1 {
   color: #FFDF00;
   font-family: 'Inconsolata';
   font-weight: 600;
@@ -81,7 +85,7 @@ body .main .about h1 {
   margin-bottom: 40px;
 }
 
-body .main .about h1:after {
+html body .main .about h1:after {
   content: "";
   display: block;
   position: relative;
@@ -93,35 +97,35 @@ body .main .about h1:after {
 }
 
 @media (min-width: 770px) {
-  body .main .about h1:after {
+  html body .main .about h1:after {
     max-width: 90%;
   }
 }
 
-body .main .about h1 span {
+html body .main .about h1 span {
   color: #dadada;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-body .main .about p {
+html body .main .about p {
   color: #8e8e8e;
 }
 
-body .main .about ul {
+html body .main .about ul {
   list-style-type: none;
   padding: 0px;
   margin-left: 30px;
 }
 
-body .main .about ul li {
+html body .main .about ul li {
   font-family: 'Inconsolata';
   font-weight: 400;
   color: #FFDF00;
 }
 
-body .main .about ul li:before {
+html body .main .about ul li:before {
   content: "▹";
   position: absolute;
   left: 0px;
@@ -134,19 +138,19 @@ body .main .about ul li:before {
 }
 
 @media (min-width: 770px) {
-  body .main .about ul li:before {
+  html body .main .about ul li:before {
     margin-left: 150px;
   }
 }
 
 @media (min-width: 770px) {
-  body .main .projects {
+  html body .main .projects {
     margin-bottom: 100px;
   }
 }
 
 @media (min-width: 770px) {
-  body .main .projects .project-content {
+  html body .main .projects .project-content {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
@@ -157,12 +161,12 @@ body .main .about ul li:before {
   }
 }
 
-body .main .projects .project-content a {
+html body .main .projects .project-content a {
   border: none;
   padding: 0px;
 }
 
-body .main .projects h1 {
+html body .main .projects h1 {
   color: #FFDF00;
   font-family: 'Inconsolata';
   font-weight: 600;
@@ -170,7 +174,7 @@ body .main .projects h1 {
   margin-bottom: 40px;
 }
 
-body .main .projects h1:after {
+html body .main .projects h1:after {
   content: "";
   display: block;
   position: relative;
@@ -182,19 +186,19 @@ body .main .projects h1:after {
 }
 
 @media (min-width: 770px) {
-  body .main .projects h1:after {
+  html body .main .projects h1:after {
     max-width: 90%;
   }
 }
 
-body .main .projects h1 span {
+html body .main .projects h1 span {
   color: #dadada;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-body .main .projects h2 {
+html body .main .projects h2 {
   color: #FFDF00;
   font-family: 'Inconsolata';
   font-weight: 600;
@@ -202,7 +206,7 @@ body .main .projects h2 {
   margin: 15px 0px 5px 0px;
 }
 
-body .main .projects p {
+html body .main .projects p {
   color: #8e8e8e;
   font-weight: 400;
   font-size: 1rem;
@@ -211,7 +215,7 @@ body .main .projects p {
   max-width: 95%;
 }
 
-body .main .projects .project-image {
+html body .main .projects .project-image {
   max-width: 95%;
   width: 565px;
   height: 318px;
@@ -220,51 +224,51 @@ body .main .projects .project-image {
   cursor: pointer;
 }
 
-body .main .projects .project-one {
+html body .main .projects .project-one {
   background: url("../img/screenshot1_dark.png") no-repeat;
   background-size: cover;
 }
 
-body .main .projects .project-one:hover {
+html body .main .projects .project-one:hover {
   background-image: url("../img/screenshot1.png");
   -webkit-transition: ease .7s;
   transition: ease .7s;
 }
 
-body .main .projects .project-two {
+html body .main .projects .project-two {
   background: url("../img/screenshot2_dark.png") no-repeat;
   background-size: cover;
 }
 
-body .main .projects .project-two:hover {
+html body .main .projects .project-two:hover {
   background-image: url("../img/screenshot2.png");
   -webkit-transition: ease .7s;
   transition: ease .7s;
 }
 
-body .main .projects .project-three {
+html body .main .projects .project-three {
   background: url("../img/screenshot3_dark.png") no-repeat;
   background-size: cover;
 }
 
-body .main .projects .project-three:hover {
+html body .main .projects .project-three:hover {
   background-image: url("../img/screenshot3.png");
   -webkit-transition: ease .7s;
   transition: ease .7s;
 }
 
-body .main .projects .project-four {
+html body .main .projects .project-four {
   background: url("../img/screenshot4_dark.png") no-repeat;
   background-size: cover;
 }
 
-body .main .projects .project-four:hover {
+html body .main .projects .project-four:hover {
   background-image: url("../img/screenshot4.png");
   -webkit-transition: ease .7s;
   transition: ease .7s;
 }
 
-body .main .projects ul {
+html body .main .projects ul {
   list-style-type: none;
   padding: 0px;
   display: -webkit-box;
@@ -272,7 +276,7 @@ body .main .projects ul {
   display: flex;
 }
 
-body .main .projects ul li {
+html body .main .projects ul li {
   font-family: 'Inconsolata';
   font-weight: 700;
   font-size: .7rem;
@@ -282,7 +286,7 @@ body .main .projects ul li {
   color: #141414;
 }
 
-body .main .contact h1 {
+html body .main .contact h1 {
   color: #FFDF00;
   font-family: 'Inconsolata';
   font-weight: 600;
@@ -290,7 +294,7 @@ body .main .contact h1 {
   margin-bottom: 40px;
 }
 
-body .main .contact h1:after {
+html body .main .contact h1:after {
   content: "";
   display: block;
   position: relative;
@@ -302,19 +306,19 @@ body .main .contact h1:after {
 }
 
 @media (min-width: 770px) {
-  body .main .contact h1:after {
+  html body .main .contact h1:after {
     max-width: 90%;
   }
 }
 
-body .main .contact h1 span {
+html body .main .contact h1 span {
   color: #dadada;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-body .main a {
+html body .main a {
   font-family: 'Inconsolata';
   color: #FFDF00;
   border: 1.5px solid #FFDF00;
@@ -324,18 +328,18 @@ body .main a {
   padding: 8px 12px 8px 12px;
 }
 
-body .main .footer {
+html body .main .footer {
   font-family: 'Inconsolata';
   color: #FFDF00;
   text-align: center;
   margin-top: 30px;
 }
 
-body .main .footer p {
+html body .main .footer p {
   margin-top: 100px;
 }
 
-body .main .footer p:before {
+html body .main .footer p:before {
   content: "";
   display: block;
   position: relative;
@@ -345,7 +349,7 @@ body .main .footer p:before {
   background-color: #414141;
 }
 
-body .main .footer .social-media {
+html body .main .footer .social-media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -358,33 +362,33 @@ body .main .footer .social-media {
   margin-bottom: 20px;
 }
 
-body .main .footer .social-media a {
+html body .main .footer .social-media a {
   border: none;
   padding: 0px;
 }
 
-body .main .footer .social-media img {
+html body .main .footer .social-media img {
   width: 2.7rem;
   margin-right: 15px;
 }
 
-body a {
+html body a {
   color: #FFDF00;
   font-family: 'Inconsolata';
   font-weight: 500;
 }
 
-body a:hover {
+html body a:hover {
   color: #FFDF00;
 }
 
-body a span {
+html body a span {
   color: #dadada;
   font-family: 'Inconsolata';
   font-weight: 400;
 }
 
-body a span:hover {
+html body a span:hover {
   color: #FFDF00;
 }
 /*# sourceMappingURL=main.css.map */
