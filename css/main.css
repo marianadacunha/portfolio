@@ -157,6 +157,11 @@ body .main .about ul li:before {
   }
 }
 
+body .main .projects .project-content a {
+  border: none;
+  padding: 0px;
+}
+
 body .main .projects h1 {
   color: #FFDF00;
   font-family: 'Inconsolata';

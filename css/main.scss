@@ -136,6 +136,11 @@ body {
           grid-template-rows: auto auto;
           grid-gap: 15px 15px;
         }
+
+        a {
+          border: none;
+          padding: 0px;
+        }
       }
 
       h1 {
