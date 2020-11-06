@@ -1,3 +1,4 @@
+/*
 const LIST = {
     screenshot1: {
         hover: `img/screenshot1.png`,
@@ -30,3 +31,4 @@ function unhover(element) {
     const item = element.getAttribute('data-project');
     this.changeImgSource(element, LIST[item]['default'])
 }
+*/
