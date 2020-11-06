@@ -341,23 +341,27 @@ html {
 
     /* Menu */
     a {
-      color: color(secondary);
+      color: color(secondary)!important;
       font-family: 'Inconsolata';
       font-weight: 500;
 
       &:hover {
-        color: color(secondary);
+        color: color(secondary)!important;
       }
 
       span {
-        color: color(text);
+        color: color(text)!important;
         font-family: 'Inconsolata';
         font-weight: 400;
 
         &:hover {
-          color: color(secondary);
+          color: color(secondary)!important;
         }
       }
+    }
+
+    .navbar-toggler {
+      border: none!important;
     }
   }
 }

@@ -373,22 +373,26 @@ html body .main .footer .social-media img {
 }
 
 html body a {
-  color: #FFDF00;
+  color: #FFDF00 !important;
   font-family: 'Inconsolata';
   font-weight: 500;
 }
 
 html body a:hover {
-  color: #FFDF00;
+  color: #FFDF00 !important;
 }
 
 html body a span {
-  color: #dadada;
+  color: #dadada !important;
   font-family: 'Inconsolata';
   font-weight: 400;
 }
 
 html body a span:hover {
-  color: #FFDF00;
+  color: #FFDF00 !important;
+}
+
+html body .navbar-toggler {
+  border: none !important;
 }
 /*# sourceMappingURL=main.css.map */
