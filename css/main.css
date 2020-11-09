@@ -286,6 +286,12 @@ html body .main .projects ul li {
   color: #141414;
 }
 
+@media (min-width: 770px) {
+  html body .main .contact {
+    margin-bottom: 145px;
+  }
+}
+
 html body .main .contact h1 {
   color: #FFDF00;
   font-family: 'Inconsolata';
@@ -339,14 +345,10 @@ html body .main .footer p {
   margin-top: 100px;
 }
 
-html body .main .footer p:before {
-  content: "";
-  display: block;
-  position: relative;
-  top: -15px;
-  max-width: 95%;
-  height: 1px;
-  background-color: #414141;
+@media (min-width: 770px) {
+  html body .main .footer p {
+    font-size: .85rem;
+  }
 }
 
 html body .main .footer .social-media {
@@ -368,8 +370,14 @@ html body .main .footer .social-media a {
 }
 
 html body .main .footer .social-media img {
-  width: 2.7rem;
+  width: 2.5rem;
   margin-right: 15px;
+}
+
+@media (min-width: 770px) {
+  html body .main .footer .social-media img {
+    width: 2.1rem;
+  }
 }
 
 html body a {
